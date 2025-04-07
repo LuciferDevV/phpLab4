@@ -165,5 +165,3 @@ recipe-book/
 - [JSON in PHP](https://www.php.net/manual/en/book.json.php) — Работа с JSON в PHP.
 
 ---
-
-Если хочешь, могу ещё собрать это в `.md`-файл или помочь с генерацией PDF.
