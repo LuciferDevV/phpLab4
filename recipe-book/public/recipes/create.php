@@ -1,10 +1,4 @@
-<?php
-require_once __DIR__ . '/../../src/core.php';
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    handleRecipeSubmission($_POST);
-}
-?>
+<?php require_once __DIR__ . '/../../src/handlers/submit.php'; ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
