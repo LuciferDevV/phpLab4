@@ -45,8 +45,3 @@ function handleRecipeSubmission(array $data) {
     header("Location: /index.php");
     exit;
 }
-
-// Если форма отправлена
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    handleRecipeSubmission($_POST);
-}
